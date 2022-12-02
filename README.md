@@ -4,7 +4,7 @@ Tags: reviews, google reviews
 Requires at least: 6.0
 Tested up to: 6.1.1
 Requires PHP: 7.1
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
