@@ -1,13 +1,20 @@
-.reviews-main-container{}
+.reviews-main-container{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
 .reviews-main-container .review-container{
-    float: left;
+    float: none;
     border: 1px solid #f2f2f2;
     border-radius: 3px;
     box-shadow: 1px 1px 2px #e0e0e0;
-    width: calc(25% - 20px);
-    margin: 10px;
+    margin: 0;
     padding: 20px;
     box-sizing: border-box;
+    flex: 32%;
 }
 .reviews-main-container .review-container:after{
     content: '';
