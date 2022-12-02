@@ -13,6 +13,7 @@
  * Version:       1.0
  * Author:        Kevin Steve Maningo
  * Author URI:    https://www.kevinstevemaningo.com
+ * GitHub Plugin URI: kevinsteve5810/display-google-reviews
  * Text Domain:   display-google-reviews
  * Domain Path:   /languages
  */
