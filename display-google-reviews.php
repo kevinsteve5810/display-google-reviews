@@ -103,7 +103,7 @@ function get_greviews() {
 
 
 
-	$a = '<div class="reviews-main-container dgr-col-' . get_option( 'dgr_cols') . '">';
+	$a = '<div class="reviews-main-container dgr-cols-' . get_option( 'dgr_cols') . '">';
 	if($loop->have_posts()){
 		while ( $loop->have_posts() ) : $loop->the_post();
 			
