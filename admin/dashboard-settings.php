@@ -24,7 +24,8 @@ function dgr_build_admin_page() {
             <?php
             if (isset($_POST['save_send'])) {
                 update_option( 'dgr_place_id', sanitize_text_field( $_POST['dgr_place_id'] ) );
-				update_option( 'dgr_key', sanitize_text_field( $_POST['dgr_key'] ) );
+		update_option( 'dgr_key', sanitize_text_field( $_POST['dgr_key'] ) );
+		update_option( 'dgr_cols', sanitize_text_field( $_POST['dgr_cols'] ) );
 
                 echo '<div class="updated notice is-dismissible"><p>Changes saved successfully!</p></div>';
             }
@@ -45,11 +46,20 @@ function dgr_build_admin_page() {
                                 </p>
                             </td>
                         </tr>
-						<tr>
+			<tr>
                             <th scope="row"><label for="dgr_key">Key</label></th>
                             <td>
                                 <p>
                                     <input type="text" id="dgr_key" name="dgr_key" class="regular-text" value="<?php echo (get_option( 'dgr_key') != '') ? get_option( 'dgr_key') : '' ?>>
+                                    <br><small>Enter Key</small>
+                                </p>
+                            </td>
+                        </tr>
+			<tr>
+                            <th scope="row"><label for="dgr_key">Number of Columns</label></th>
+                            <td>
+                                <p>
+                                    <input type="number" id="dgr_cols" name="dgr_cols" min="1" max="4" class="regular-text" value="<?php echo (get_option( 'dgr_cols') != '') ? get_option( 'dgr_cols') : '' ?>>
                                     <br><small>Enter Key</small>
                                 </p>
                             </td>
