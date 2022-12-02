@@ -50,7 +50,7 @@ function dgr_build_admin_page() {
                             <th scope="row"><label for="dgr_key">Key</label></th>
                             <td>
                                 <p>
-                                    <input type="text" id="dgr_key" name="dgr_key" class="regular-text" value="<?php echo (get_option( 'dgr_key') != '') ? get_option( 'dgr_key') : '' ?>>
+                                    <input type="text" id="dgr_key" name="dgr_key" class="regular-text" value="<?php echo (get_option( 'dgr_key') != '') ? get_option( 'dgr_key') : '' ?>">
                                     <br><small>Enter Key</small>
                                 </p>
                             </td>
@@ -59,8 +59,8 @@ function dgr_build_admin_page() {
                             <th scope="row"><label for="dgr_key">Number of Columns</label></th>
                             <td>
                                 <p>
-                                    <input type="number" id="dgr_cols" name="dgr_cols" min="1" max="4" class="regular-text" value="<?php echo (get_option( 'dgr_cols') != '') ? get_option( 'dgr_cols') : '' ?>>
-                                    <br><small>Enter Key</small>
+                                    <input type="number" id="dgr_cols" name="dgr_cols" min="1" max="4" class="regular-text" value="<?php echo (get_option( 'dgr_cols') != '') ? get_option( 'dgr_cols') : '' ?>">
+                                    <br><small>Enter number of columns</small>
                                 </p>
                             </td>
                         </tr>
