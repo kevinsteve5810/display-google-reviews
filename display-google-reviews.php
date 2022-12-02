@@ -4,13 +4,13 @@
  *
  * @package       COPYRIGHTS
  * @author        Kevin Steve Maningo
- * @version       1.0
+ * @version       1.1
  *
  * @wordpress-plugin
  * Plugin Name:   Display Google Reviews
  * Plugin URI:    https://www.kevinstevemaningo.com
  * Description:   Display Google Reviews
- * Version:       1.0
+ * Version:       1.1
  * Author:        Kevin Steve Maningo
  * Author URI:    https://www.kevinstevemaningo.com
  * GitHub Plugin URI: kevinsteve5810/display-google-reviews
