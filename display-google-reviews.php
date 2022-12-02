@@ -3,7 +3,7 @@
  * Plugin Name:   Display Google Reviews
  * Plugin URI:    https://www.kevinstevemaningo.com
  * Description:   Display Google Reviews
- * Version:       1.1.2
+ * Version:       1.1.3
  * Author:        Kevin Steve Maningo
  * Author URI:    https://www.kevinstevemaningo.com
  * GitHub Plugin URI: kevinsteve5810/display-google-reviews
@@ -103,7 +103,7 @@ function get_greviews() {
 
 
 
-	$a = '<div class="reviews-main-container">';
+	$a = '<div class="reviews-main-container dgr-col-<?php echo get_option( 'dgr_cols') ?>">';
 	if($loop->have_posts()){
 		while ( $loop->have_posts() ) : $loop->the_post();
 			
