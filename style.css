@@ -14,7 +14,19 @@
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    flex: 32%;
+    flex: 100%;
+}
+.reviews-main-container.dgr-cols-1 .review-container{
+    flex: 100%;
+}
+.reviews-main-container.dgr-cols-2 .review-container{
+    flex: calc(50% - 10px);
+}
+.reviews-main-container.dgr-cols-3 .review-container{
+    flex: calc(33% - 10px);
+}
+.reviews-main-container.dgr-cols-4 .review-container{
+    flex: calc(25% - 10px);
 }
 .reviews-main-container .review-container:after{
     content: '';
